@@ -17,4 +17,13 @@ int min(int[] , int ){
   }
   return lowest;
 }
+float average(int[] ,int ){
+  int a;
+  float sum=0.0;
+  for(a=0;a<int ;a++){
+    sum+=int[a];
+  }
+  sum= sum/int;
+  return sum;
+}
   
