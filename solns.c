@@ -9,4 +9,12 @@ int max(int[] , int ){
   return highest;
 }
     
+int min(int[] , int ){
+  int a,lowest=0;
+  for(a=0;a<int;a++){
+    if(int[a] < highest )
+      lowest = int[a];
+  }
+  return lowest;
+}
   
