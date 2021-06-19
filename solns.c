@@ -34,6 +34,7 @@ int mode(int x[], int n){
     for(b=0;b<n;b++){
     if(x[a]==x[b]){
       num++;
+     }
     }
     if(num>=max)
     {
