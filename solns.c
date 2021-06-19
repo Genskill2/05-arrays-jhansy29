@@ -29,17 +29,19 @@ float average(int x[] ,int n){
 }
 
 int mode(int x[], int n){
-  int num=0,a,b,max=0;
+  int num=0,a,b,max=0,count=0;
   for(a=0;a<n;a++){
     for(b=0;b<n;b++){
-    if(x[a]==x[b])
+    if(x[a]==x[b]){
       num++;
     }
     if(num>=max)
     {
-      max=num;
+      count=num;
+      max=x[i];
     }
-    return x[a];
+  }
+    return max;
   }
   
   int factors(int n, int a[]){
