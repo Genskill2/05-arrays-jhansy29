@@ -1,5 +1,6 @@
 /* Enter your solutions in this file */
 #include <stdio.h>
+#include<assert.h>
 int max(int x[] , int n){
   int a,highest=0;
   for(a=0;a<n;a++){
