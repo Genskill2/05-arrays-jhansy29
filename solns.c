@@ -41,6 +41,26 @@ int mode(int x[], int n){
     return x[a];
   }
   
+  int factors(int n, int a[]){
+   int i, j=0;
+  int x=n;
+  for(i=2;i<=n;i++)
+  {
+    
+    if(n%i==0)
+    {
+      
+      a[j]=i;
+      n=n/i;
+      
+      i=1;
+      j++;
+      
+    } 
+  }
+  return j;  
+}
+  
     
     
     
