@@ -11,7 +11,7 @@ int max(int x[] , int n){
 }
     
 int min(int x[] , int n){
-  int a,lowest=0;
+  int a,lowest=x[0];
   for(a=0;a<n;a++){
     if(x[a] < lowest )
       lowest = x[a];
