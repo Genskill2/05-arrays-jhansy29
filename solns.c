@@ -38,7 +38,7 @@ int mode(int x[], int n){
     if(num>=max)
     {
       count=num;
-      max=x[i];
+      max=x[a];
     }
   }
     return max;
