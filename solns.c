@@ -28,10 +28,20 @@ float average(int x[] ,int n){
 }
 
 int mode(int x[], int n){
-  int num=0,a, counts[];
-  for(a=0;a<int;a++){
-    if(int[a]==int[0])
+  int num=0,a,b,max=0;
+  for(a=0;a<n;a++){
+    for(b=0;b<n;b++){
+    if(int[a]==int[b])
       num++;
+    }
+    if(num>=max)
+    {
+      max=num;
+    }
+    return x[a];
+  }
+  
+    
     
     
   
