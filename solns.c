@@ -13,7 +13,7 @@ int max(int x[] , int n){
 int min(int x[] , int n){
   int a,lowest=0;
   for(a=0;a<n;a++){
-    if(x[a] < highest )
+    if(x[a] < lowest )
       lowest = x[a];
   }
   return lowest;
@@ -32,7 +32,7 @@ int mode(int x[], int n){
   int num=0,a,b,max=0;
   for(a=0;a<n;a++){
     for(b=0;b<n;b++){
-    if(int[a]==int[b])
+    if(x[a]==x[b])
       num++;
     }
     if(num>=max)
